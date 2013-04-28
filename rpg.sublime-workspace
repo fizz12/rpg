@@ -1,0 +1,573 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"follo",
+				"followed_id"
+			],
+			[
+				"has_",
+				"has_many_and_belongs_to"
+			],
+			[
+				"boot",
+				"bootstrap-css-responsive"
+			],
+			[
+				"bootst",
+				"bootstrap-css"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"is",
+				"is_logged_in"
+			],
+			[
+				"create",
+				"create_member"
+			],
+			[
+				"signup",
+				"signup_form"
+			],
+			[
+				"form",
+				"form_validation"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mysql_nu",
+				"mysql_num_rows"
+			],
+			[
+				"REMO",
+				"header_remove"
+			],
+			[
+				"shorturl",
+				"shorturl_adm"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/views/layouts/main.blade.php",
+			"settings":
+			{
+				"buffer_size": 1165,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/home/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/login/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Windows",
+				"name": "@layout('layouts/main')"
+			}
+		},
+		{
+			"file": "application/controllers/user.php",
+			"settings":
+			{
+				"buffer_size": 1181,
+				"line_ending": "Windows",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "application/models/user.php",
+			"settings":
+			{
+				"buffer_size": 464,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/base.php",
+			"settings":
+			{
+				"buffer_size": 630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/routes.php",
+			"settings":
+			{
+				"buffer_size": 2835,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"func",
+				"Snippet: Function Signature"
+			],
+			[
+				"fun",
+				"Snippet: Function Signature"
+			],
+			[
+				"Snippet: ",
+				"Snippet: function …"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/rpg/application/controllers/login.php",
+		"/C/xampp/htdocs/rpg/application/config/application.php",
+		"/C/xampp/htdocs/rpg/application/controllers/base.php",
+		"/C/xampp/htdocs/rpg/application/migrations/2013_04_27_212435_create_locations.php",
+		"/C/xampp/htdocs/rpg/application/migrations/2013_04_27_211642_create_users.php",
+		"/C/xampp/htdocs/rpg/application/migrations/2013_04_27_212135_create_usergroups.php",
+		"/C/xampp/htdocs/rpg/application/config/auth.php",
+		"/C/xampp/htdocs/rpg/application/config/database.php",
+		"/C/xampp/htdocs/laravel/application/controllers/login.php",
+		"/C/xampp/htdocs/laravel/application/views/home/index.blade.php",
+		"/C/xampp/htdocs/laravel/application/models/user.php",
+		"/C/xampp/htdocs/laravel/application/models/photo.php",
+		"/C/xampp/htdocs/laravel/application/models/photocomment.php",
+		"/C/xampp/htdocs/laravel/application/routes.php",
+		"/C/xampp/htdocs/laravel/application/config/database.php",
+		"/C/xampp/htdocs/laravel/application/config/application.php",
+		"/C/xampp/htdocs/laravel/public/js/jquery-1.9.1.min.js",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.749/imdbtag.php",
+		"/C/xampp/htdocs/ci/rpg/config/autoload.php",
+		"/C/xampp/htdocs/ci/rpg/config/database.php",
+		"/C/xampp/htdocs/ci/rpg/controllers/auth.php",
+		"/C/xampp/htdocs/ci/application/controllers/site.php",
+		"/C/xampp/htdocs/ci/rpg/controllers/index.php",
+		"/C/xampp/htdocs/ci/rpg/controllers/login.php",
+		"/C/xampp/htdocs/ci/rpg/views/index.php",
+		"/C/xampp/htdocs/ci/rpg/views/login_form.php",
+		"/C/xampp/htdocs/ci/rpg/config/routes.php",
+		"/C/xampp/htdocs/ci/rpg/views/includes/template.php",
+		"/C/xampp/htdocs/ci/rpg/views/members_area.php",
+		"/C/xampp/htdocs/ci/rpg/config/ion_auth.php",
+		"/C/xampp/htdocs/ci/rpg/config/config.php",
+		"/C/Users/John/AppData/Roaming/Sublime Text 2/Packages/Sublimerge/Sublimerge.sublime-settings",
+		"/C/xampp/htdocs/mybb/inc/init.php",
+		"/C/Users/John/Documents/MyBB/SafeLink/inc/plugins/safelink.php",
+		"/C/Users/John/Documents/MyBB/SafeLink/safelink.php",
+		"/C/xampp/htdocs/mybb/member.php",
+		"/C/Users/John/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/John/Desktop/Lankea/index.html",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.630/kashflow.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.180/hooks.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.087/enomnewtlds.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.525/hpmpexp.php",
+		"/C/xampp/htdocs/ci/application/views/members_area.php",
+		"/C/xampp/htdocs/ci/css/style.css",
+		"/C/xampp/htdocs/ci/application/config/config.php",
+		"/C/xampp/htdocs/ci/application/config/database.php",
+		"/C/xampp/htdocs/ci/system/libraries/Session.php",
+		"/C/xampp/htdocs/ci/application/config/autoload.php",
+		"/C/xampp/htdocs/ci/application/css/style.css",
+		"/C/xampp/htdocs/ci/application/views/includes/header.php",
+		"/C/xampp/htdocs/ci/application/config/routes.php",
+		"/C/xampp/htdocs/ci/application/views/welcome_message.php",
+		"/C/xampp/htdocs/ci/application/views/includes/footer.php",
+		"/C/xampp/htdocs/ci/application/controllers/welcome.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.201/jsbotprotection.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.376/profilealbums.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.157/safelink.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.522/albums.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.333/profilealbums.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.661/no_links.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.421/adv_sidebox_classes.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.599/adv_sidebox_functions.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.983/adv_sidebox.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.266/invite.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.524/newpoints.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.199/newpoints.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.456/activatefromprofile.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.172/renameposts.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.583/iot.php",
+		"/C/xampp/htdocs/ci/application/views/login_form.php",
+		"/C/xampp/htdocs/CodeIgniter_2.1.3/system/core/Controller.php",
+		"/C/Users/John/Documents/MyBooter/login.php",
+		"/C/Users/John/Documents/MyBooter/g.php",
+		"/C/Users/John/Documents/MyBooter/register.php",
+		"/C/Users/John/Documents/RCAC/register/index.php",
+		"/C/Users/John/Documents/RCAC/register/do.php",
+		"/C/Users/John/Documents/RCAC/inc/funcs.php",
+		"/C/Users/John/Documents/QuiteComical/quitecomical/index.php",
+		"/C/Users/John/Documents/RCAC/inc/config.php",
+		"/C/Users/John/Documents/RCAC/f/index.php",
+		"/C/Users/John/Documents/RCAC/tmp/header.php",
+		"/C/Users/John/Documents/RCAC/tmp/nav/0login.php",
+		"/C/Users/John/Documents/RCAC/wiki/index.php",
+		"/C/Users/John/Documents/RCAC/register/config.php",
+		"/C/Users/John/Documents/RCAC/f/header.php",
+		"/C/Users/John/Documents/RCAC/index.php",
+		"/C/xampp/htdocs/shorturl/index.php",
+		"/C/xampp/htdocs/shorturl/funcs.php",
+		"/C/xampp/htdocs/shorturl/db.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.335/stats.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.991/module_meta.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.654/grouprules.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.325/newpoints.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.529/converter2.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.341/converter1.php",
+		"/C/Users/John/AppData/Local/Temp/ignoreforum.php",
+		"/C/Users/John/Documents/MyBB/Invitation System by cfillion/inc/plugins/invite.php",
+		"/C/Users/John/Documents/MyBB/Require Thread Prefixes/inc/plugins/require_prefixes.php",
+		"/C/Users/John/Documents/MyBB/Require Thread Prefixes/inc/languages/english/require_prefixes.lang.php",
+		"/C/Users/John/Documents/MyBB/Invitation System by cfillion/inc/languages/english/invite.lang.php",
+		"/C/xampp/htdocs/laravel/laravel/routing/router.php",
+		"/C/xampp/htdocs/laravel/laravel/fluent.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.714/index.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.186/shoutbox.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.813/myshoutbox.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.347/upgrade17.php",
+		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.276/pspshoutbox.php",
+		"/C/xampp/htdocs/laravel/application/start.php",
+		"/C/xampp/htdocs/laravel/laravel/crypter.php",
+		"/C/xampp/htdocs/laravel/application/tests/example.test.php",
+		"/C/xampp/htdocs/laravel/public/laravel/js/prettify.js",
+		"/C/xampp/htdocs/laravel/laravel/cli/command.php",
+		"/C/xampp/htdocs/laravel/application/controllers/home.php",
+		"/C/xampp/htdocs/laravel/application/language/en/pagination.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/views/layouts/main.blade.php",
+					"settings":
+					{
+						"buffer_size": 1165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								893,
+								893
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/views/home/index.blade.php",
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/views/login/index.blade.php",
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"auto_name": "@layout('layouts/main')",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/controllers/user.php",
+					"settings":
+					{
+						"buffer_size": 1181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/models/user.php",
+					"settings":
+					{
+						"buffer_size": 464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/controllers/base.php",
+					"settings":
+					{
+						"buffer_size": 630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "application/routes.php",
+					"settings":
+					{
+						"buffer_size": 2835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								887,
+								887
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true
+}

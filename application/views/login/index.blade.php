@@ -7,6 +7,10 @@
 <div class="span3">
 	<span class="label label-important">{{ Session::get('loginerror') }}</span>
 </div><br />
+@elseif(Session::has('autherror'))
+<div class="span3">
+	<span class="label label-important">{{ Session::get('autherror') }}</span>
+</div><br />
 @endif
 <div class="span8">
 	<?php echo Form::open('user/authenticate'); ?>

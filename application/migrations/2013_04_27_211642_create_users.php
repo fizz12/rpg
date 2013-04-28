@@ -26,9 +26,11 @@ class Create_Users {
 			$table->integer('str')->default(0); //Strength
 			$table->integer('agi')->default(0); //Agility
 			$table->integer('def')->default(0); //Defense
+			$table->integer('avatar')->default(0); // ID of user's avatar
 
 			//bools
-			$table->boolean('active')->default(false);;
+			$table->boolean('active')->default(false);
+			$table->boolean('premium')->default(false);
 
 			//created/update_at timestamps
 			$table->timestamps();

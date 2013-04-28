@@ -8,6 +8,11 @@ class User extends Eloquent
 		return $this->has_one('User_Profile');
 	}
 
+	public function user_avatar()
+	{
+		return $this->has_one('Avatar');
+	}
+
 	/*public function friends()
 	{
 		return $this->has_many_and_belongs_to('User', 'relationships', 'followed_id', 'follower_id');

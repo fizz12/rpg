@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"redirec",
+				"Redirect"
+			],
+			[
 				"base",
 				"base64_decode"
 			],
@@ -80,51 +84,36 @@
 	"buffers":
 	[
 		{
-			"file": "application/views/layouts/main.blade.php",
-			"settings":
-			{
-				"buffer_size": 1765,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "application/controllers/user.php",
 			"settings":
 			{
-				"buffer_size": 1977,
+				"buffer_size": 3276,
 				"line_ending": "Windows",
 				"name": "<?php"
 			}
 		},
 		{
-			"file": "application/controllers/dashboard.php",
+			"file": "application/controllers/login.php",
 			"settings":
 			{
-				"buffer_size": 3541,
+				"buffer_size": 746,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/views/dashboard/account.blade.php",
+			"file": "application/views/emails/pwreset.blade.php",
 			"settings":
 			{
-				"buffer_size": 2123,
-				"line_ending": "Windows"
+				"buffer_size": 453,
+				"line_ending": "Windows",
+				"name": "<html>"
 			}
 		},
 		{
-			"file": "application/views/dashboard/index.blade.php",
+			"file": "application/views/login/reset/index.blade.php",
 			"settings":
 			{
-				"buffer_size": 871,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/views/register/index.blade.php",
-			"settings":
-			{
-				"buffer_size": 1259,
+				"buffer_size": 664,
 				"line_ending": "Windows"
 			}
 		},
@@ -132,15 +121,15 @@
 			"file": "application/views/login/index.blade.php",
 			"settings":
 			{
-				"buffer_size": 799,
+				"buffer_size": 765,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/views/dashboard/profile.blade.php",
+			"file": "application/views/login/reset/do/index.blade.php",
 			"settings":
 			{
-				"buffer_size": 978,
+				"buffer_size": 665,
 				"line_ending": "Windows"
 			}
 		}
@@ -186,19 +175,29 @@
 	"file_history":
 	[
 		"/C/xampp/htdocs/rpg/application/routes.php",
-		"/C/xampp/htdocs/rpg/application/models/user.php",
+		"/C/xampp/htdocs/rpg/bundles/messages/config/config.php",
+		"/C/xampp/htdocs/rpg/application/views/layouts/main.blade.php",
+		"/C/xampp/htdocs/rpg/application/views/login/reset/do.blade.php",
+		"/C/xampp/htdocs/rpg/application/views/emails/.htacess",
+		"/C/xampp/htdocs/rpg/application/views/login/doreset.blade.php",
 		"/C/xampp/htdocs/rpg/application/views/dashboard/index.blade.php",
+		"/C/xampp/htdocs/rpg/application/views/dashboard/account.blade.php",
+		"/C/xampp/htdocs/rpg/application/controllers/dashboard.php",
+		"/C/xampp/htdocs/rpg/application/views/login/reset.blade.php",
+		"/C/xampp/htdocs/rpg/application/views/login/index.blade.php",
+		"/C/xampp/htdocs/rpg/application/views/dashboard/profile.blade.php",
+		"/C/xampp/htdocs/rpg/application/bundles.php",
+		"/C/xampp/htdocs/rpg/readme.md",
+		"/C/xampp/htdocs/rpg/application/controllers/login.php",
 		"/C/xampp/htdocs/rpg/application/views/register/index.blade.php",
+		"/C/xampp/htdocs/rpg/application/models/user.php",
 		"/C/xampp/htdocs/rpg/application/models/avatar.php",
 		"/C/xampp/htdocs/rpg/application/migrations/2013_04_27_211642_create_users.php",
 		"/C/xampp/htdocs/rpg/application/migrations/2013_04_28_045711_create_avatars.php",
 		"/C/xampp/htdocs/rpg/application/views/home/index.blade.php",
-		"/C/xampp/htdocs/rpg/application/views/login/index.blade.php",
-		"/C/xampp/htdocs/rpg/application/controllers/dashboard.php",
 		"/C/xampp/htdocs/rpg/application/controllers/base.php",
 		"/C/xampp/htdocs/laravel/application/routes.php",
 		"/C/xampp/htdocs/rpg/application/controllers/register.php",
-		"/C/xampp/htdocs/rpg/application/controllers/login.php",
 		"/C/xampp/htdocs/rpg/application/config/application.php",
 		"/C/xampp/htdocs/rpg/application/migrations/2013_04_27_212435_create_locations.php",
 		"/C/xampp/htdocs/rpg/application/migrations/2013_04_27_212135_create_usergroups.php",
@@ -302,13 +301,7 @@
 		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.813/myshoutbox.php",
 		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.347/upgrade17.php",
 		"/C/Users/John/AppData/Local/Temp/Rar$DIa0.276/pspshoutbox.php",
-		"/C/xampp/htdocs/laravel/application/start.php",
-		"/C/xampp/htdocs/laravel/laravel/crypter.php",
-		"/C/xampp/htdocs/laravel/application/tests/example.test.php",
-		"/C/xampp/htdocs/laravel/public/laravel/js/prettify.js",
-		"/C/xampp/htdocs/laravel/laravel/cli/command.php",
-		"/C/xampp/htdocs/laravel/application/controllers/home.php",
-		"/C/xampp/htdocs/laravel/application/language/en/pagination.php"
+		"/C/xampp/htdocs/laravel/application/start.php"
 	],
 	"find":
 	{
@@ -348,47 +341,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "application/views/layouts/main.blade.php",
-					"settings":
-					{
-						"buffer_size": 1765,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1180,
-								1180
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "application/controllers/user.php",
 					"settings":
 					{
-						"buffer_size": 1977,
+						"buffer_size": 3276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1265,
-								1265
+								2826,
+								2826
 							]
 						],
 						"settings":
@@ -398,78 +362,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 872.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "application/controllers/dashboard.php",
+					"buffer": 1,
+					"file": "application/controllers/login.php",
 					"settings":
 					{
-						"buffer_size": 3541,
+						"buffer_size": 746,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2938,
-								2938
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 855.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "application/views/dashboard/account.blade.php",
-					"settings":
-					{
-						"buffer_size": 2123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								686,
-								686
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 225.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "application/views/dashboard/index.blade.php",
-					"settings":
-					{
-						"buffer_size": 871,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								821,
-								821
+								738,
+								738
 							]
 						],
 						"settings":
@@ -483,11 +394,64 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "application/views/register/index.blade.php",
+					"buffer": 2,
+					"file": "application/views/emails/pwreset.blade.php",
 					"settings":
 					{
-						"buffer_size": 1259,
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								453,
+								453
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<html>",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/views/login/reset/index.blade.php",
+					"settings":
+					{
+						"buffer_size": 664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/views/login/index.blade.php",
+					"settings":
+					{
+						"buffer_size": 765,
 						"regions":
 						{
 						},
@@ -510,51 +474,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "application/views/login/index.blade.php",
+					"buffer": 5,
+					"file": "application/views/login/reset/do/index.blade.php",
 					"settings":
 					{
-						"buffer_size": 799,
+						"buffer_size": 665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								369,
-								369
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "application/views/dashboard/profile.blade.php",
-					"settings":
-					{
-						"buffer_size": 978,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								576,
-								576
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -33,9 +33,10 @@
 */
 Route::controller(Controller::detect());
 Route::get('dashboard/profile/(:num)', 'dashboard@profile'); // Route profile/:num to Dashboard@Profile(:num)
+Route::get('login/reset/do/(:any)', 'user@doreset'); // Route login/reset/:any to User@reset(:any) -- password reset token
 
 // auth filter is defined below and redirects to /login/ by default
-Route::filter('pattern: dashboard/*', 'auth'); // Make sure you're logged in if you wanna go to anything in dashboard/
+Route::filter('pattern: dashboard/*', 'auth'); // Make sure user is logged in if they want to go to anything in /dashboard/
 
 /*
 |--------------------------------------------------------------------------
@@ -108,5 +109,5 @@ Route::filter('csrf', function()
 
 Route::filter('auth', function()
 {
-	if (Auth::guest()) return Redirect::to('login')->with('autherror', 'You must be logged in to access that page!');
+	if (Auth::guest()) return Redirect::to('login')->with('error', 'You must be logged in to access that page!');
 });

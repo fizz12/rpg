@@ -27,6 +27,7 @@
 			<?php echo Form::open('dashboard/change_email');?>
 				<!-- Change Email -->
 				<?php echo Form::hidden('uid', base64_encode($user->id)); ?>
+				<?php echo Form::token(); ?>
 				<?php echo Form::label('email', 'New Email'); ?>
 				<?php echo Form::text('email');?>
 				<?php echo Form::label('emailconf', 'Confirm New Email'); ?>
@@ -42,6 +43,7 @@
 			<?php echo Form::open('dashboard/change_password'); ?>
 				<!-- Change Password -->
 				<?php echo Form::hidden('uid', base64_encode($user->id)); ?>
+				<?php echo Form::token(); ?>
 				<?php echo Form::label('newpass', 'New Password'); ?>
 				<?php echo Form::password('newpass');?>
 				<?php echo Form::label('newpassconf', 'Confirm New Password'); ?>
@@ -53,6 +55,6 @@
 			<?php echo Form::close(); ?>
 		</div>
 	</div>
-	<p><a href="../dashboard">Back to Dashboard</a></p>
+	<p><a href="<?php echo URL::to('dashboard');?>">Back to Dashboard</a></p>
 </div>
 @endsection

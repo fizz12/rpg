@@ -4,14 +4,18 @@
 
 @section('content')
 @if($errors->has())
-	<div id="validation-errors"><span class="label label-important">
-		<p>The following errors occured:</p>
-		<ul id="errors">
-			@foreach($errors->all() as $err)
-				<li>{{ $err }}</li>
-			@endforeach
-		</ul>
-	</div>
+<div id="validation-errors">
+<span class="label label-important">
+	<p>The following errors occured:</p>
+	<ul id="errors">
+		@foreach($errors->all() as $err)
+			<li>{{ $err }}</li>
+		@endforeach
+	</ul>
+</span>
+</div>
+@elseif(Session::has('error'))
+	<div id="error"><span class="label label-important">{{ Session::get('error') }}</span></div>
 @endif
 <div class="span8">
 	<?php echo Form::open('user/register'); ?>

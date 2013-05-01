@@ -20,7 +20,7 @@
 </div>
 @endif
 <div class="span8">
-	<p><h2>WELCOME TO DIE DASHBOARD NIG</h2></p>
+	<p><h2>WELCOME TO ZE DASHBOARD MOFO</h2></p>
 	<p><a href="{{ URL::to('dashboard/account') }}">Edit Account Settings</a></p>
 </div>
 @endsection

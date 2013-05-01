@@ -3,13 +3,9 @@
 @section('pagetitle')Login@endsection
 
 @section('content')
-@if(Session::has('loginerror'))
+@if(Session::has('error'))
 <div class="span3">
-	<span class="label label-important">{{ Session::get('loginerror') }}</span>
-</div><br />
-@elseif(Session::has('autherror'))
-<div class="span3">
-	<span class="label label-important">{{ Session::get('autherror') }}</span>
+	<span class="label label-important">{{ Session::get('error') }}</span>
 </div><br />
 @endif
 <div class="span8">
@@ -23,7 +19,10 @@
 		<?php echo Form::password('password'); ?>
 
 		<!-- login button -->
-		<?php echo Form::submit('Login');?>
+		<?php echo Form::submit('Login'); ?>
 	<?php echo Form::close(); ?>
+	<div id="forgot">
+		<p><?php echo HTML::link_to_action('login@reset', 'Forgotten your password?'); ?></p>
+	</div>
 </div>
 @endsection

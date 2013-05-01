@@ -19,6 +19,7 @@ class Create_Users {
 			$table->string('username', 32);
 			$table->string('email', 180);
 			$table->string('password', 64);
+			$table->string('token', 32)->nullable(); // Password reset token, null by default
 
 			//ints
 			$table->integer('usergroup')->default(0);

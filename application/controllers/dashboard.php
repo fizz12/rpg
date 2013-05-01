@@ -9,8 +9,10 @@ class Dashboard_Controller extends Base_Controller
 
 	public function action_profile($id) // dashboard/profile
 	{
-		if(!User::find($id))
+		if( ! User::find($id))
 			return Redirect::to('dashboard')->with('profile_error', 'That user doesn\'t exist!');
+		elseif( ! isset($id) && Auth::check()) // No $id set, show user's own profile
+			return Redirect::to('dashboard/profile/' . Auth::user()->id);
 		else
 		{
 			$user = User::find($id);
@@ -29,7 +31,7 @@ class Dashboard_Controller extends Base_Controller
 
 	public function action_change_email() // Change user email -- from dashboard/account
 	{
-		if(!User::find(base64_decode(Input::get('uid')))) // if uid isn't found then exit, it's been messed with
+		if( ! User::find(base64_decode(Input::get('uid')))) // if uid isn't found then exit, it's been messed with
 			return Redirect::to('dashboard/account')->with('error', 'That user doesn\'t exist.');
 
 		$rules = array(
@@ -45,14 +47,17 @@ class Dashboard_Controller extends Base_Controller
 		{
 			$user = User::find(base64_decode(Input::get('uid')));
 
+			if(Session::token() !== Input::get('token')) // CSRF protection
+				Redirect::to('dashboard/account')->with('error', 'Invalid request.');
+
 			if( ! Hash::check(Input::get('password'), $user->password)) // If entered password doesn't match user's password in DB -> error, redirect
-				return Redirect::to('dashboard/account')->with('error', 'Incorrect password.');
+				return Redirect::to('dashboard/account')->with_input()->with('error', 'Incorrect password.');
 
 			$user->email = Input::get('email');
 			$user->save();
 
 			if($user->email == Input::get('email'))
-				return Redirect::to('dashboard/account')->with('status', 'Successfully changed email to "' . $user->email . '"');
+				return Redirect::to('dashboard/account')->with('status', 'Successfully changed email to "' . $user->email . '"')->with('user', $user);
 			else // updating failed for some reason
 				return Redirect::to('dashboard/account')->with('error', 'Failed to update email. Your email was not changed.');
 		}
@@ -60,7 +65,7 @@ class Dashboard_Controller extends Base_Controller
 
 	public function action_change_password() // Change user password -- from dashboard/account
 	{
-		if(!User::find(base64_decode(Input::get('uid')))) // if uid isn't found then exit
+		if( ! User::find(base64_decode(Input::get('uid')))) // if uid isn't found then exit
 			return Redirect::to('dashboard/acacount')->with('error', 'That user doesn\'t exist.');
 
 		$rules = array(
@@ -76,13 +81,17 @@ class Dashboard_Controller extends Base_Controller
 		{
 			$user = User::find(base64_decode(Input::get('uid')));
 
+			if(Session::token() !== Input::get('token')) // CSRF protection
+				Redirect::to('dashboard/account')->with('error', 'Invalid request.');
+
 			if( ! Hash::check(Input::get('password'), $user->password))
 				return Redirect::to('dashboard/account')->with('error', 'Incorrect Password.');
 
-			$user->password = Hash::make(Input::get('newpass'));
+			$password = Hash::make(Input::get('newpass'));
+			$user->password = $password; //Hash::make(Input::get('newpass'));
 			$user->save();
 
-			if($user->password == Hash::make(Input::get('newpass')))
+			if($user->password == $password)
 				return Redirect::to('dashboard/account')->with('status', 'Successfully changed password!');
 			else
 				return Redirect::to('dashboard/account')->with('error', 'Failed to update password. Your password was not changed.');
@@ -91,8 +100,8 @@ class Dashboard_Controller extends Base_Controller
 
 	public function action_upload_avatar($id)
 	{
-		if(!User::find($id))
-			return Redirect::to('dashboard')->with('profile_error', 'An error occurred.');
+		if( ! User::find($id))
+			return Redirect::to('dashboard')->with('error', 'An error occurred.');
 		else
 		{
 			$user = User::find($id);

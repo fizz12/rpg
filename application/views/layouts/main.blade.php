@@ -15,12 +15,11 @@
                     <div class="nav-collapse">
                         <ul class="nav">
                             @section('navigation')
-                            @if(!Auth::user())
+                            @if( ! Auth::check())
                             <li><a href="<?php echo URL::base();?>">Home</a></li>
                             <li><a href="<?php echo URL::to('login');?>">Login</a></li>
                             <li><a href="<?php echo URL::to('register');?>">Register</a></li>
-                            @endif
-                            @if(Auth::user())
+                            @else
                             <?php $uid = Auth::user()->id;?>
                             <li><a href="<?php echo URL::to('dashboard');?>">Dashboard</a></li>
                             <li><a href="<?php echo URL::to('dashboard/profile/'.$uid);?>">Profile</a></li>
